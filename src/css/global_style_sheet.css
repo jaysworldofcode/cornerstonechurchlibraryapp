@@ -1,0 +1,217 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    background-color: blue;
+}
+*:focus {
+    outline: none !important;
+}
+.create-full-width-style {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.title{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 100;
+}
+.menuCol {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 25%;
+    height: 100%;
+}
+.menuRow {
+    height: 25%;
+}
+.menuContainer {
+    position: absolute;
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    width: 100%;
+    height: 91%;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 100;
+}
+.menu-icon {
+    width: 30%;
+    height: 30%;
+}
+#message-title {
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#banner {
+    background-image: url('../assets/Images/banner.png');
+    background-size: cover;
+    color: white;
+    border-bottom-left-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+}
+#discipleship-header {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+#discipleship-date {
+    font-size: 10px;
+    font-weight: 100;
+    color: gray;
+}
+#discipleship-new-content {
+    font-size: 10px;
+    border-bottom: 0.2px solid #ededed;
+    font-weight: 100;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+#banner-home{
+    background-image: url('../assets/Images/home-bg-banner.png');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+}
+#banner-home img {
+    padding-top: 5%;
+}
+#home-new-content{
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom: 0.2px solid #f5f5f5;
+}
+#home-header {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+#home-content {
+    font-size: 10px;
+    font-weight: 100;
+    padding-top: 10px;
+}
+#discipleship-content {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+li#discipleship-content{
+    padding: 0;
+}
+#home-new-content img{
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+}
+#home-new-content #image-content{
+    margin-top: 4%;
+    text-align: center;
+    margin-right: -50%;
+}
+#banner-home #profile{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+#personal-info{
+    padding: 10%;
+}
+.title-login{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 14;
+    font-weight: 100;
+    color: white;
+}
+#menu-container{
+    position: fixed;
+    width: 100%;
+    height: 93%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+#menu-container table{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#cell{
+    width: 25%;
+    height: 25%;
+    font-size: 10px;
+    font-weight: 100;
+}
+#specific-content-verse{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#specific-verse{
+    font-size: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#specific-content-message{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+p {
+    text-align: justify;
+    text-justify: inter-word;  
+}
+#sermons-content-description{
+    font-size: 14px;
+    font-weight: 300;
+}
+#name-title{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+}
+#sermons-content-title{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+#sermons-content-icon-button{
+    border-top: 0.2px solid #ededed;
+}
+#sermons-content-icon-button{
+    border-top: 0.2px solid #ededed;
+}
+#sermons-content{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form-control #login-username{
+    border-radius: 25px;
+}
+.login-form{
+    border-top: 0.2px solid #ededed;
+}
+.circle {
+    height: 300px;
+    width: 100%;
+    border-bottom-left-radius: 25px;
+    background-color: #007bff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url('../assets/Images/banner.png');
+    background-size: cover;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom: 0.2px solid #ededed;
+}
