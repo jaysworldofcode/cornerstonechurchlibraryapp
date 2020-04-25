@@ -6,9 +6,7 @@ import { Form } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
-import Menu from './Menu';
-import BottomNav from './BottomNav';
+import Books from './Books';
 import logo from './assets/Images/logo-shadow.png';
 import { withStyles } from '@material-ui/core/styles';
 import ButtonMaterialUI from '@material-ui/core/Button';
@@ -24,8 +22,8 @@ class login extends React.Component {
      }
     };
     LoginAccount(){
-      ReactDOM.render(<Menu />, document.getElementById('root'));
-      ReactDOM.render(<BottomNav />, document.getElementById('navbar'));
+      {/** ReactDOM.render(<BottomNav />, document.getElementById('navbar')); **/}
+      ReactDOM.render(<Books username={'John Doe'} />, document.getElementById('root'));
     }
     render() {
      const CenterComponents = {
@@ -52,7 +50,7 @@ class login extends React.Component {
       }))(ButtonMaterialUI);
       return (
         <div>
-        <div class="circle"></div>
+        <div></div>
         <Container fluid style={CenterComponents}>
         <Row>
           <Col>
