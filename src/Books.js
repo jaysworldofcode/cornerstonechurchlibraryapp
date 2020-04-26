@@ -23,10 +23,10 @@ export default class Books extends React.Component {
         title,path,content,writer){
           return    <Row id='book' onClick={this.ViewBook}>
                         {/*style={{marginTop:this.state.height}}*/}
-                        <Col xs={4} md={2} id='book-cover'>
+                        <Col xs={4} md={2} xl={1} id='book-cover'>
                            <img src={logo} alt="cover" className='center'/>
                         </Col>
-                        <Col xs={8} md={10}>
+                        <Col xs={8} md={10} xl={11}>
                           <ul>
                               <li id='book-header'> {title}</li>
                               <li id='book-writer'>Author: {writer}</li>
